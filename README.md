@@ -19,5 +19,7 @@ cd external/carbon-lang/
 ```
 
 ```
-bazel run //explorer -- ../../hello.carbon
+bazel run //explorer -- ../../primefactor.carbon
 ```
+
+seems carbon doesn't have division operator yet, so for now implemented with subtraction. This causes when finding prime factor for a larger number slower.
